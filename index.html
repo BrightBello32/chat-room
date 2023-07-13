@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video call</title>
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <div class="vc-block">
+        <aside></aside>
+        <main>
+            <div class="sub-main">
+
+            </div>
+
+            <div class="down">
+                <span class="speaker"><i class="fas fa-microphone"></i></span>
+                <span class="video"><i class="fas fa-video"></i></span>
+                <span class="reject"><i class="fas fa-phone"></i></span>
+            </div>
+        </main>
+    </div> -->
+
+    <div id="videos">
+        <video src="" class="video-player" id="user1" autoplay playsinline></video>
+        <video src="" class="video-player" id="user2" autoplay playsinline></video>
+    </div>
+
+    <div id="controls">
+        <span class="control-container" id="camera-btn"><i class="fas fa-video"></i></span>
+        <span class="control-container" id="mic-btn"><i class="fas fa-microphone"></i></span>
+        <a href="lobby.html">
+            <span class="control-container" id="leave-btn"><i class="fas fa-phone"></i></span>
+        </a>
+    </div>
+
+
+    <script src="./all.min.js"></script>
+    <script src="./agora-rtm-sdk-1.5.1.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
