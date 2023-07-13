@@ -82,7 +82,7 @@ main {
     background: black;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #user2 {
@@ -131,10 +131,6 @@ main {
 }
 
 @media screen and (max-width:600px) {
-    .smallFrame {
-        height: 80px;
-        width: 120px;
-    }
     .control-container span {
         font-size: 1.2rem;
     }
